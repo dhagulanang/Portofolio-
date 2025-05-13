@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #94a9dc;
+      color: #fff;
+      text-align: center;
+    }
+    a {
+      color: #2e3f75;
+      text-decoration: none;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    .title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #1f3d8a;
+    }
+    .highlight {
+      color: #fff;
+    }
+    .portfolio-preview {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.5rem;
+    }
+    .preview-img {
+      width: 40vw;
+      max-width: 150px;
+      border-radius: 1rem;
+    }
+    .button {
+      margin: 1rem;
+      padding: 0.75rem 1.5rem;
+      border: 2px solid #1f3d8a;
+      border-radius: 2rem;
+      background-color: transparent;
+      color: #1f3d8a;
+      font-weight: bold;
+    }
+    .info-text {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      color: white;
+    }
+    img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+    .container {
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Halaman Utama -->
+  <div id="home" class="container">
+    <div class="nav">
+      <a href="#">&lt; back</a>
+      <a href="#info">other &gt;</a>
+    </div>
+    <div class="title"><span class="highlight">p</span>ortofolio</div>
+    <div>
+      <img src="img1.jpg" alt="preview">
+      <p><a href="#gallery">my portofolio</a></p>
+    </div>
+    <a href="#gallery" class="button">see more</a>
+  </div>  <!-- Halaman Galeri -->  <div id="gallery" class="container">
+    <div class="nav">
+      <a href="#home">&lt; back</a>
+      <a href="#info">other &gt;</a>
+    </div>
+    <div class="title"><span class="highlight">p</span>ortofolio</div>
+    <div class="portfolio-preview">
+      <img src="img2.jpg" alt="art 1" class="preview-img">
+      <img src="img3.jpg" alt="art 2" class="preview-img">
+      <img src="img4.jpg" alt="art 3" class="preview-img">
+    </div>
+  </div>  <!-- Halaman Info Diri -->  <div id="info" class="container">
+    <div class="nav">
+      <a href="#home">&lt; back</a>
+    </div>
+    <div class="title"><span class="highlight">i</span>nfo diri</div>
+    <div class="info-text">
+      Halo! Aku Rama, ilustrator digital yang suka bikin gambar bertema doodle dan anime dengan warna-warna cerah yang fresh—kayak langit biru dan hijaunya rumput. Aku biasa menggambar pakai IbisPaint langsung dari HP, jadi aku terbiasa bikin karya yang simpel tapi tetap rapi dan hidup. Gaya gambar aku cocok buat proyek yang butuh sentuhan ceria, ringan, dan berwarna.
+    </div>
+  </div>
+</body>
+</html>
